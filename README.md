@@ -33,7 +33,7 @@ var myapp = angular.module('myapp', ['base64Module']);
 ### Encoding to base64
 
 ```javascript
-
+$scope.encode = function() {
     base64Service.encode('this is a simple test');
 };
 ```
@@ -41,7 +41,7 @@ var myapp = angular.module('myapp', ['base64Module']);
 ### Decoding from base64
 
 ```javascript
-
+$scope.decode = function() {
     base64Service.decode('this is a simple test');
 };
 ```
