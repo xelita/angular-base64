@@ -30,7 +30,7 @@ var myapp = angular.module('myapp', ['base64Module']);
 
 ```javascript
 $scope.encode = function() {
-    base64Service.encode('this is a simple test');
+    base64Service.encode('this is a test'); // return 'dGhpcyBpcyBhIHRlc3Q='
 };
 ```
 
@@ -38,7 +38,7 @@ $scope.encode = function() {
 
 ```javascript
 $scope.decode = function() {
-    base64Service.decode('this is a simple test');
+    base64Service.decode('dGhpcyBpcyBhIHRlc3Q='); // return 'this is a test'
 };
 ```
 
