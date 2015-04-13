@@ -1,5 +1,5 @@
 {
-    "name": "angular-base64",
+    "name": "angular-base64-codec",
     "version": "1.0.0",
     "description": "Base64 encoding and decoding service for AngularJS applications",
     "homepage": "https://github.com/xelita/angular-base64",
