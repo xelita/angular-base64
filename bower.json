@@ -1,0 +1,30 @@
+{
+  "name": "angular-base64",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xelita/angular-base64",
+  "authors": [
+    "xelita <admin@xelita.com>"
+  ],
+  "description": "Base64 encoding and decoding service for AngularJS applications",
+  "main": "src/angularBase64.js",
+  "keywords": [
+    "angular",
+    "base64"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.3",
+    "angular-mocks": "~1.2.3",
+    "jquery": "~2.1.1"
+  },
+  "dependencies": {
+    "angular": "~1.2.3"
+  }
+}
