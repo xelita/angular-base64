@@ -7,11 +7,7 @@ Base64 encoding and decoding service for AngularJS applications.
 ### Using Bower
 
 ``` bash
-```
-
-### Using NPM
-
-``` bash
+bower install angular-base64-codec
 ```
 
 ## Quick start
