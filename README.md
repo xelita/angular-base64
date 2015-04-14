@@ -5,6 +5,8 @@
 
 Base64 encoding and decoding service for AngularJS applications.
 
+IMPORTANT: This library relies to last browsers features for encoding and decoding strings to and from base 64: window.atob() and window.btoa(). To know if this library can be comptible with the version of the browser your are using: http://caniuse.com/#feat=atob-btoa
+
 ## Install
 
 ### Using Bower
