@@ -17,10 +17,15 @@ bower install angular-base64-codec
 
 ## Quick start
 
-+ Include angularBase64.js in your application.
++ Include library in your application.
 
 ```html
-<script src="js/angularBase64.js"></script>
+<script src="js/angular-base64-codec.js"></script>
+```
+or
+
+```html
+<script src="js/angular-base64-codec.min.js"></script>
 ```
 
 + Add the module `base64Module` as a dependency to your app module:
