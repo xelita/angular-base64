@@ -1,4 +1,7 @@
-# [angular-base64][![Build Status](https://travis-ci.org/xelita/angular-base64.png?branch=master)](https://travis-ci.org/xelita/angular-base64)
+[![Bower version](https://badge.fury.io/bo/angular-base64-codec.svg)](http://badge.fury.io/bo/angular-base64-codec)
+[![Build Status](https://travis-ci.org/xelita/angular-base64.png?branch=master)](https://travis-ci.org/xelita/angular-base64)
+
+# [angular-base64]
 
 Base64 encoding and decoding service for AngularJS applications.
 
