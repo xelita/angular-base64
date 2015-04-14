@@ -16,7 +16,7 @@
   ],
   "author": "xelita <admin@xelita.com>",
   "license": "MIT",
-  "main": "src/angularBase64.js",
+  "main": "dist/angularBase64-codec.min.js",
   "devDependencies": {
     "bower": "~1.3.3",
     "grunt": "^0.4.5",

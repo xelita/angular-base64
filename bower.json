@@ -6,7 +6,7 @@
     "xelita <admin@xelita.com>"
   ],
   "description": "Base64 encoding and decoding service for AngularJS applications",
-  "main": "src/angularBase64.js",
+  "main": "dist/angularBase64-codec.min.js",
   "keywords": [
     "angular",
     "base64"
