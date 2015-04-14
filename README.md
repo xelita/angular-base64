@@ -17,12 +17,12 @@ bower install angular-base64-codec
 
 ## Quick start
 
-+ Include library in your application.
++ Include the library in your application.
 
 ```html
 <script src="js/angular-base64-codec.js"></script>
 ```
-or
+or use the minified version:
 
 ```html
 <script src="js/angular-base64-codec.min.js"></script>
