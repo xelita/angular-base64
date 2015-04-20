@@ -1,4 +1,4 @@
-[![Bower version](https://badge.fury.io/bo/angular-base64-codec.svg)](http://badge.fury.io/bo/angular-base64-codec)
+[![Bower version](https://badge.fury.io/bo/angular-base64.svg)](http://badge.fury.io/bo/angular-base64)
 [![Build Status](https://travis-ci.org/xelita/angular-base64.png?branch=master)](https://travis-ci.org/xelita/angular-base64)
 [![Coverage Status](https://coveralls.io/repos/xelita/angular-base64/badge.svg)](https://coveralls.io/r/xelita/angular-base64)
 # [angular-base64]
@@ -40,7 +40,8 @@ var myapp = angular.module('myapp', ['base64Module']);
 
 ```javascript
 $scope.encode = function() {
-    base64Service.encode('this is a test'); // return 'dGhpcyBpcyBhIHRlc3Q='
+    // return 'dGhpcyBpcyBhIHRlc3Q='
+    base64Service.encode('this is a test');
 };
 ```
 
@@ -48,7 +49,8 @@ $scope.encode = function() {
 
 ```javascript
 $scope.decode = function() {
-    base64Service.decode('dGhpcyBpcyBhIHRlc3Q='); // return 'this is a test'
+    // return 'this is a test'
+    base64Service.decode('dGhpcyBpcyBhIHRlc3Q='); 
 };
 ```
 
